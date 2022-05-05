@@ -72,7 +72,7 @@ app.get("/states/:stateId/", async (request, response) => {
   const book = await db.get(getBookQuery);
   response.send(book);
 });
-
+//api3
 app.post("/districts/", async (request, response) => {
   try {
     const bookDetails = request.body;
